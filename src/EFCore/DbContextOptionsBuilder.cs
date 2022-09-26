@@ -411,7 +411,7 @@ public class DbContextOptionsBuilder : IDbContextOptionsBuilderInfrastructure
     /// </summary>
     /// <remarks>
     ///     Note that if the application is setting the internal service provider through a call to
-    ///     <see cref="UseInternalServiceProvider" />, then setting this option wil have no effect.
+    ///     <see cref="UseInternalServiceProvider" />, then setting this option will have no effect.
     /// </remarks>
     /// <param name="cacheServiceProvider">If <see langword="true" />, then the internal service provider is cached.</param>
     /// <returns>The same builder instance so that multiple calls can be chained.</returns>
